@@ -12,7 +12,7 @@ Aplicación Android en Kotlin Multiplatform. El módulo `shared` contiene la ló
 3. Selecciona un emulador Android y ejecuta la configuración `androidApp`.
 4. Inicia sesión con `tecnico1` / `Agro2026*`, `jefe1` / `Agro2026*` o `admin` / `Agro2026*`.
 
-El emulador usa `http://10.0.2.2:8080/api/v1/`; para un teléfono físico se debe configurar la dirección LAN de la computadora en `shared/src/commonMain/kotlin/pe/upeu/agrosierra/data/remote/AgroHttpClient.kt`.
+El emulador usa `http://10.0.2.2:8080/api/v1/`; para un teléfono físico se debe configurar la dirección LAN de la computadora en `shared/src/androidMain/kotlin/pe/upeu/agrosierra/data/remote/ClienteHttp.kt`.
 
 ## Estructura
 
@@ -32,3 +32,9 @@ En Windows, desde esta carpeta:
 ```
 
 El APK de depuración se genera en `androidApp/build/outputs/apk/debug/androidApp-debug.apk`.
+
+## Informe y evidencias
+
+- Informe final: [`docs/Informe_Final_AgroSierra_Alexander_Guillen_Mendoza.pdf`](docs/Informe_Final_AgroSierra_Alexander_Guillen_Mendoza.pdf).
+- Capturas Android del emulador: `evidencias/`.
+- La ejecución verificada en esta entrega es Android; no se incluye evidencia de compilación o ejecución iOS.
